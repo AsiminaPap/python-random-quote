@@ -10,8 +10,11 @@ def main():
   
   last = 13
   rnd = random.randint(0, last)
+  
+  last = len(quotes) - 1
+  print last
 
-  print(rnd)
+  print([rnd])
 
 if __name__== "__main__":
   main()
